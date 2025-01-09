@@ -14,7 +14,6 @@ O objetivo é demonstrar como criptografar e descriptografar um arquivo de texto
 4. [Capturas de Tela](#-capturas-de-tela)
 5. [Conceitos Aprendidos](#-conceitos-aprendidos)
 6. [Uso e Contribuição](#-uso-e-contribuição)
-7. [Aviso Legal](#-aviso-legal)
 
 ---
 
@@ -105,6 +104,5 @@ Este repositório é livre para uso, cópia, modificação e compartilhamento, d
    git checkout -b minha-feature
 
 --
-
 Feito com ❤️  por [Ellen](https://github.com/ellen-xploit)  
 Baseado no projeto de [Cassiano Dio](https://github.com/cassiano-dio/cibersecurity-desafio-ransomware)
