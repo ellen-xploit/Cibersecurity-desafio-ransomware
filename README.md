@@ -44,7 +44,7 @@ Neste fork, as seguintes alterações foram implementadas:
 
 ---
 
-## 🛠️  Como Executar
+##  Como Executar
 
 1. **Configure o ambiente**:
    - Crie e ative um ambiente virtual:
