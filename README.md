@@ -40,7 +40,7 @@ Neste fork, as seguintes alterações foram implementadas:
 - `decrypter.py`: Script de descriptografia.
 - `README.md`: Arquivo principal.
 - **Capturas de Tela**:
-  - `comandos.png`, `arquivodetexto.png`, `encrypter.png`, `decrypter.png`, `
+  - `comandos.png`, `arquivodetexto.png`, `encrypter.png`, `decrypter.png`, 
 
 ---
 
