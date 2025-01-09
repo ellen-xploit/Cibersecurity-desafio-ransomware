@@ -1,4 +1,4 @@
-# Desafio Ransomware - Fork Personalizado
+# Desafio Ransomware
 
 Este repositório é um fork do projeto original [Desafio Ransomware](https://github.com/cassiano-dio/cibersecurity-desafio-ransomware), adaptado por [Ellen](https://github.com/ellen-xploit/Cibersecurity-desafio-ransomware) como parte de um desafio do curso de cibersegurança.
 
@@ -13,9 +13,8 @@ O objetivo é demonstrar como criptografar e descriptografar um arquivo de texto
 3. [Como Executar](#-como-executar)
 4. [Capturas de Tela](#-capturas-de-tela)
 5. [Conceitos Aprendidos](#-conceitos-aprendidos)
-6. [Aviso Legal](#-aviso-legal)
-7. [Contribuição](#-contribuição)
-8. [Uso](#-uso)
+6. [Uso e Contribuição](#-uso-e-contribuição)
+7. [Aviso Legal](#-aviso-legal)
 
 ---
 
@@ -24,24 +23,36 @@ O objetivo é demonstrar como criptografar e descriptografar um arquivo de texto
 
 Neste fork, as seguintes alterações foram implementadas:
 
+<<<<<<< HEAD
 - **Arquivo de Texto Único**: `mensagem_secreta.txt` armazena a mensagem original
+=======
+- **Arquivo de Texto Único**: [`mensagem_secreta.txt`](mensagem_secreta.txt) armazena a mensagem original.
+>>>>>>> 939dc39 (Update README.md)
 - **Criptografia e Descriptografia**:
-  - `encrypter.py` criptografa o arquivo.
-  - `decrypter.py` descriptografa o arquivo.
+  - [`encrypter.py`](encrypter.py): Criptografa o arquivo.
+  - [`decrypter.py`](decrypter.py): Descriptografa o arquivo.
 - **Capturas de Tela**: Incluídas para documentar o processo.
 - **Uso do `venv`**: Ambiente virtual Python para isolar dependências.
+
 
 ---
 
 ## 📂 Estrutura do Projeto
 
-- `mensagem_secreta.txt`: Arquivo de texto.
-- `encrypter.py`: Script de criptografia.
-- `decrypter.py`: Script de descriptografia.
-- `README.md`: Arquivo principal.
+- [`mensagem_secreta.txt`](https://github.com/ellen-xploit/Cibersecurity-desafio-ransomware/blob/main/mensagem_secreta.txt): Arquivo de texto.
+- [`encrypter.py`](https://github.com/ellen-xploit/Cibersecurity-desafio-ransomware/blob/main/encrypter.py): Script de criptografia.
+- [`decrypter.py`](https://github.com/ellen-xploit/Cibersecurity-desafio-ransomware/blob/main/decrypter.py): Script de descriptografia.
+- [`README.md`](https://github.com/ellen-xploit/Cibersecurity-desafio-ransomware/blob/main/README.md): Arquivo principal.
 - **Capturas de Tela**:
+<<<<<<< HEAD
   - `comandos.png`, `arquivodetexto.png`, `encrypter.png`, `decrypter.png`, 
 
+=======
+  - [`comandos.png`](https://github.com/ellen-xploit/Cibersecurity-desafio-ransomware/blob/main/capturas/comandos.png)
+  - [`arquivodetexto.png`](https://github.com/ellen-xploit/Cibersecurity-desafio-ransomware/blob/main/capturas/arquivodetexto.png)
+  - [`encrypter.png`](https://github.com/ellen-xploit/Cibersecurity-desafio-ransomware/blob/main/capturas/encrypter.png)
+  - [`decrypter.png`](https://github.com/ellen-xploit/Cibersecurity-desafio-ransomware/blob/main/capturas/decrypter.png)
+>>>>>>> 939dc39 (Update README.md)
 ---
 
 ## 🛠️ Como Executar
@@ -67,6 +78,7 @@ Neste fork, as seguintes alterações foram implementadas:
      ```bash
      python decrypter.py
      ```
+     
 
 ---
 
@@ -76,51 +88,38 @@ Neste fork, as seguintes alterações foram implementadas:
 - **Arquivo Original**: ![Arquivo Original](capturas/arquivodetexto.png)
 - **Código do Encrypter**: ![Código do Encrypter](capturas/encrypter.png)
 - **Código do Decrypter**: ![Código do Decrypter](capturas/decrypter.png)
-- **Arquivo Criptografado**: ![Arquivo Criptografado](capturas/arquivocriptografado.png)
+- **Arquivo Criptografado**: ![Arquivo Criptografado](capturas/arquivocriptogra>
 
----
+
 
 ## 📚 Conceitos Aprendidos
 
-- Criptografia e descriptografia.
-- Segurança de dados.
-- Uso de ambientes virtuais (`venv`).
+- **Criptografia Simétrica**: Uso de chaves para criptografar e descriptografar dados.
+- **Segurança de Dados**: Proteção de informações confidenciais.
+- **Ambientes Virtuais**: Isolamento de dependências com `venv`.
+- **Funcionamento de Ransomware**: Simulação de um ataque real para fins educacionais.
 
+## 🤝 Uso e Contribuição
 
----
+Este repositório é livre para uso, cópia, modificação e compartilhamento, desde que seja para fins de aprendizado e estudo.
 
-## ⚠️ Aviso Legal
+### 🚫 Restrições
+- **Não use este projeto para atividades maliciosas ou ilegais**.
+- Respeite a finalidade educacional do projeto.
 
-Este projeto é **apenas para fins educacionais**. Não use para atividades maliciosas.
-
-
----
-
-## 🤝 Contribuição
-
-1. Faça um fork.
-2. Crie uma branch:
+### 🙌 Como Contribuir
+1. Faça um fork do repositório.
+2. Crie uma branch para sua feature:
    ```bash
    git checkout -b minha-feature
 
 ---
+## ⚠️ Aviso Legal
 
-## 📄 Uso
-
-# Uso Livre para Fins de Estudos
-
-Este repositório contém um projeto desenvolvido para fins educacionais. O código e os arquivos aqui presentes são livres para uso, cópia, modificação e compartilhamento, desde que seja para fins de aprendizado e estudo.
-
-## 🚫 Restrições
-
-- **Não use este projeto para atividades maliciosas ou ilegais**.
-- Respeite a finalidade educacional do projeto.
-
-## 🙌 Contribuições
-
-Se você quiser contribuir com melhorias ou correções, sinta-se à vontade para abrir uma issue ou enviar um pull request.
+Este projeto foi desenvolvido **exclusivamente para fins educacionais** e de aprendizado. Ele simula o funcionamento de um ransomware, mas **não deve ser usado de forma maliciosa ou ilegal**. O objetivo é entender como a criptografia funciona e como os ataques de ransomware podem ser realizados, a fim de desenvolver estratégias de prevenção e proteção.
 
 ---
 
-Feito com ❤️ por [Ellen](https://github.com/ellen-xploit)  
-Baseado no projeto de [Cassiano Dio](https://github.com/cassiano-dio/cibersecurity-desafio-ransomware)
+Feito com ❤️  por [Ellen](https://github.com/ellen-xploit)  
+Baseado no projeto de [Cassiano Dio](https://github.com/cassiano-dio/cibersecurity-desafio-ransomware) 
+
