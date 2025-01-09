@@ -24,7 +24,7 @@ O objetivo é demonstrar como criptografar e descriptografar um arquivo de texto
 
 Neste fork, as seguintes alterações foram implementadas:
 
-- **Arquivo de Texto Único**: `mensagem_secreta.txt` armazena a mensagem original>
+- **Arquivo de Texto Único**: `mensagem_secreta.txt` armazena a mensagem original
 - **Criptografia e Descriptografia**:
   - `encrypter.py` criptografa o arquivo.
   - `decrypter.py` descriptografa o arquivo.
