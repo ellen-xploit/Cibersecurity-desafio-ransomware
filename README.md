@@ -10,7 +10,7 @@ O objetivo é demonstrar como criptografar e descriptografar um arquivo de texto
 
 1. [Modificações Realizadas](#-modificações-realizadas)
 2. [Estrutura do Projeto](#-estrutura-do-projeto)
-3. [Como Executar](#como-executar)
+3. [Passo a Passo](#-passo-a-passo)
 4. [Capturas de Tela](#-capturas-de-tela)
 5. [Conceitos Aprendidos](#-conceitos-aprendidos)
 6. [Uso e Contribuição](#-uso-e-contribuição)
@@ -44,7 +44,8 @@ Neste fork, as seguintes alterações foram implementadas:
 
 ---
 
-## 🛠️ Como Executar
+## 🛠️ Passo a Passo
+
 
 1. **Configure o ambiente**:
    - Crie e ative um ambiente virtual:
