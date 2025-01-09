@@ -21,49 +21,104 @@ O objetivo é demonstrar como criptografar e descriptografar um arquivo de texto
 
 ## 🚀 Modificações Realizadas
 
-[Clique aqui para ver as modificações realizadas.](modificacoes.md)
+
+Neste fork, as seguintes alterações foram implementadas:
+
+- **Arquivo de Texto Único**: `mensagem_secreta.txt` armazena a mensagem origin>
+- **Criptografia e Descriptografia**:
+  - `encrypter.py` criptografa o arquivo.
+  - `decrypter.py` descriptografa o arquivo.
+- **Capturas de Tela**: Incluídas para documentar o processo.
+- **Uso do `venv`**: Ambiente virtual Python para isolar dependências.
 
 ---
 
 ## 📂 Estrutura do Projeto
 
-[Clique aqui para ver a estrutura do projeto.](estrutura.md)
+- `mensagem_secreta.txt`: Arquivo de texto.
+- `encrypter.py`: Script de criptografia.
+- `decrypter.py`: Script de descriptografia.
+- `README.md`: Arquivo principal.
+- **Capturas de Tela**:
+  - `comandos.png`, `arquivodetexto.png`, `encrypter.png`, `decrypter.png`, `ar>
 
 ---
 
 ## 🛠️ Como Executar
 
-[Clique aqui para ver como executar o projeto.](execucao.md)
+1. **Configure o ambiente**:
+   - Crie e ative um ambiente virtual:
+     ```bash
+     python3 -m venv venv
+     source venv/bin/activate  # Linux/Mac
+     venv\Scripts\activate     # Windows
+     ```
+   - Instale as dependências:
+     ```bash
+     pip install cryptography
+     ```
+
+2. **Execute os scripts**:
+   - Criptografar:
+     ```bash
+     python encrypter.py
+     ```
+   - Descriptografar:
+     ```bash
+     python decrypter.py
+     ```
 
 ---
 
 ## 📸 Capturas de Tela
 
-[Clique aqui para ver as capturas de tela.](capturas.md)
+- **Comandos**: ![Comandos](capturas/comandos.png)
+- **Arquivo Original**: ![Arquivo Original](capturas/arquivodetexto.png)
+- **Código do Encrypter**: ![Código do Encrypter](capturas/encrypter.png)
+- **Código do Decrypter**: ![Código do Decrypter](capturas/decrypter.png)
+- **Arquivo Criptografado**: ![Arquivo Criptografado](capturas/arquivocriptografado.png)
 
 ---
 
 ## 📚 Conceitos Aprendidos
 
-[Clique aqui para ver os conceitos aprendidos.](conceitos.md)
+- Criptografia e descriptografia.
+- Segurança de dados.
+- Uso de ambientes virtuais (`venv`).
+
 
 ---
 
 ## ⚠️ Aviso Legal
 
-[Clique aqui para ver o aviso legal.](aviso.md)
+Este projeto é **apenas para fins educacionais**. Não use para atividades maliciosas.
+
 
 ---
 
 ## 🤝 Contribuição
 
-[Clique aqui para ver como contribuir.](contribuicao.md)
+1. Faça um fork.
+2. Crie uma branch:
+   ```bash
+   git checkout -b minha-feature
 
 ---
 
 ## 📄 Uso
 
-[Clique aqui para ver detalhes sobre a uso.](USO.md)
+# Uso Livre para Fins de Estudos
+
+Este repositório contém um projeto desenvolvido para fins educacionais. O código e os arquivos aqui presentes são livres para uso, cópia, modificação e compartilhamento, desde que seja para fins de aprendizado e estudo.
+
+## 🚫 Restrições
+
+- **Não use este projeto para atividades maliciosas ou ilegais**.
+- Respeite a finalidade educacional do projeto.
+
+## 🙌 Contribuições
+
+Se você quiser contribuir com melhorias ou correções, sinta-se à vontade para abrir uma issue ou enviar um pull request.
 
 ---
 
