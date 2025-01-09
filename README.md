@@ -63,7 +63,7 @@ O objetivo é demonstrar como criptografar e descriptografar um arquivo de texto
 
 ## 📄 Uso
 
-[Clique aqui para ver detalhes sobre a licença.](licenca.md)
+[Clique aqui para ver detalhes sobre a uso.](USO.md)
 
 ---
 
